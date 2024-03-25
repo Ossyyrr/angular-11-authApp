@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable, computed, inject, signal } from '@angular/core';
 import { Observable, catchError, map, of, throwError } from 'rxjs';
-import { enviroment } from '../../../enviroments/enviroments';
+import { enviroment } from '../../../enviroments/enviroments.development';
 import { AuthStatus, LoginResponse, User } from '../interfaces';
 import { CheckTokenResponse } from '../interfaces/check-token.response';
 
